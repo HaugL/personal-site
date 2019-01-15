@@ -9,6 +9,12 @@
 </template>
 
 <style lang="scss">
+  @import "assets/styles/custom-bootstrap.scss";
+  @import "~bootstrap/scss/bootstrap.scss";
+  @import '~bootstrap-vue/dist/bootstrap-vue.css';
+</style>
+
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
