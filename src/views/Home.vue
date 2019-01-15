@@ -1,15 +1,16 @@
 <template>
   <div class="home">
     <div class="overlay">
-      <h2>Hello, I'm Lianne Haug.</h2>
-      <h2>I'm a full-stack web developer.</h2>
+      <div class='title-text'>
+        Hello, I'm <div class='name-highlight'>Lianne Haug.</div>
+      </div>
+      <div class='title-text'>I build websites.</div>
     </div>
     <Particles />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import Particles from '@/components/Particles.vue';
 
 export default {
@@ -28,4 +29,10 @@ export default {
     left: 0
     right: 0
     color: $white
+    padding-top: 250px
+    .title-text
+      font-size: 21px
+      .name-highlight
+        display: -webkit-inline-box
+        color: $pink
 </style>
