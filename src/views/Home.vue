@@ -24,12 +24,14 @@ export default {
 <style lang="sass">
   @import "@/assets/styles/base.sass"
   .overlay
+    margin-left: auto
+    margin-right: auto
     position: absolute
     text-align: center
     left: 0
     right: 0
     color: $white
-    padding-top: 250px
+    margin-top: 250px
     .title-text
       font-size: 21px
       .name-highlight

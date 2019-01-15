@@ -5,7 +5,7 @@
       <a href='/portfolio'>Portfolio</a>
       <a href='/contact'>Contact</a>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
@@ -24,9 +24,10 @@ export default {
     color: $bright-blue
     text-align: center
     .nav-link-container
-      width: 500px
       margin-left: auto
       margin-right: auto
+      left: 0
+      right: 0
       a
         padding-left: 35px
         padding-right: 35px
