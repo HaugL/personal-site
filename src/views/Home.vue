@@ -1,18 +1,31 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="overlay">
+      <h2>Hello, I'm Lianne Haug.</h2>
+      <h2>I'm a full-stack web developer.</h2>
+    </div>
+    <Particles />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import Particles from '@/components/Particles.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    Particles,
   },
 };
 </script>
+
+<style lang="sass">
+  @import "@/assets/styles/base.sass"
+  .overlay
+    position: absolute
+    text-align: center
+    left: 0
+    right: 0
+    color: $white
+</style>
