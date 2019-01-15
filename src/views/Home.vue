@@ -23,6 +23,8 @@ export default {
 
 <style lang="sass">
   @import "@/assets/styles/base.sass"
+  .home
+    height: 100%
   .overlay
     margin-left: auto
     margin-right: auto

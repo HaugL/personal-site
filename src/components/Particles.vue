@@ -27,10 +27,12 @@ export default {
 </script>
 
 <style lang="sass">
+  @import "@/assets/styles/base.sass"
   #particles-js
+    height: calc(100vh + 53px)
     width: 100%
-    height: 100%
-    background:#252934
+    background: $background
     position: absolute
     z-index: -1
+    border-bottom: 10px solid $bright-blue
 </style>
