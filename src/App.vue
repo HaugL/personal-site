@@ -3,20 +3,28 @@
     <div id="nav">
       <Navbar />
     </div>
-    <router-view/>
+    <Particles />
+    <Home />
+    <About />
   </div>
 </template>
 
 
 <script>
+import About from '@/views/About.vue';
+import Home from '@/views/Home.vue';
 import Navbar from '@/components/Navbar.vue';
+import Particles from '@/components/Particles.vue';
 
 export default {
   name: 'App',
   components: {
-    Navbar
-  }
-}
+    About,
+    Home,
+    Navbar,
+    Particles,
+  },
+};
 </script>
 
 <style lang="scss">
