@@ -16,9 +16,8 @@ export default {
 
 <style lang="sass">
   @import "@/assets/styles/base.sass"
-
   .nav
-    height: 35px
+    height: $navbar-height
     padding: 20px
     background-color: $background
     color: $bright-blue

@@ -27,10 +27,13 @@ export default {
 </script>
 
 <style lang="sass">
+  @import "@/assets/styles/base.sass"
   #particles-js
+    position: fixed
+    top: $navbar-height
     width: 100%
     height: 100%
     background:#252934
     position: absolute
-    z-index: -1
+    z-index: 0
 </style>
