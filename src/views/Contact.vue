@@ -1,11 +1,11 @@
 <template>
-  <div id="about">
-    <h1>This is an about page</h1>
+  <div id="contact">
+    <h1>This is a Contact page</h1>
   </div>
 </template>
 
 <style lang="sass">
   @import "@/assets/styles/base.sass"
-  #about
+  #contact
     height: calc(100vh)
 </style>

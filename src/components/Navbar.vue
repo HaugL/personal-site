@@ -1,9 +1,9 @@
 <template>
   <div class='nav'>
     <div class='nav-link-container'>
-      <a href='/about'>About</a>
-      <a href='/portfolio'>Portfolio</a>
-      <a href='/contact'>Contact</a>
+      <a href="#" v-scroll-to="'#about'">About</a>
+      <a href="#" v-scroll-to="'#portfolio'">Portfolio</a>
+      <a href="#" v-scroll-to="'#contact'">Contact</a>
     </div>
   </div>
 </template>

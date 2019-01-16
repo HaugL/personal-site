@@ -1,11 +1,11 @@
 <template>
-  <div id="about">
-    <h1>This is an about page</h1>
+  <div id="portfolio">
+    <h1>This is a Portfolio page</h1>
   </div>
 </template>
 
 <style lang="sass">
   @import "@/assets/styles/base.sass"
-  #about
+  #portfolio
     height: calc(100vh)
 </style>
