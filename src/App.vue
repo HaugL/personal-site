@@ -3,17 +3,22 @@
     <div id="nav">
       <Navbar />
     </div>
-    <router-view/>
+    <Home />
+    <About />
   </div>
 </template>
 
 
 <script>
+import About from '@/views/About.vue';
+import Home from '@/views/Home.vue';
 import Navbar from '@/components/Navbar.vue';
 
 export default {
   name: 'App',
   components: {
+    About,
+    Home,
     Navbar
   }
 }
