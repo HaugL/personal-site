@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="introduction">
     <div class="overlay">
       <div class='title-text'>
         Hello, I'm <div class='name-highlight'>Lianne Haug.</div>
@@ -11,13 +11,13 @@
 
 <script>
 export default {
-  name: 'home',
+  name: 'introduction',
 };
 </script>
 
 <style lang="sass">
   @import "@/assets/styles/base.sass"
-  .home
+  #introduction
     height: calc(100vh)
   .overlay
     margin-left: auto

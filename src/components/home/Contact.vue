@@ -1,6 +1,9 @@
 <template>
-  <div id="contact">
-    <h1>This is a Contact page</h1>
+  <div id="contact" class="section-container section-background-secondary">
+    <div class="section-header">
+      CONTACT
+      <div class="section-header-underline"/>
+    </div>
   </div>
 </template>
 

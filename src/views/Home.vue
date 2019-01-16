@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     <Particles />
     <Introduction />
     <About />
@@ -26,3 +26,28 @@ export default {
   },
 };
 </script>
+
+
+<style lang="sass">
+  @import "@/assets/styles/base.sass"
+  .section-container
+    border-top: 20px solid $bright-blue
+    padding-top: 50px
+    text-align: center
+    .section-header
+      font-size: 40px
+      .section-header-underline
+        width: 70px
+        height: 2px
+        margin: 5px auto 100px auto
+  .section-background-primary
+    background-color: $background
+    color: white
+    .section-header-underline
+      background-color: white
+  .section-background-secondary
+    background-color: $secondary-background
+    .section-header-underline
+      background-color: black
+
+</style>

@@ -1,6 +1,9 @@
 <template>
-  <div id="portfolio">
-    <h1>This is a Portfolio page</h1>
+  <div id="portfolio" class="section-container section-background-primary">
+    <div class="section-header">
+      PORTFOLIO
+      <div class="section-header-underline"/>
+    </div>
   </div>
 </template>
 

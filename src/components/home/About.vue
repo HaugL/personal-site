@@ -1,6 +1,9 @@
 <template>
-  <div id="about">
-    <h1>This is an about page</h1>
+  <div id="about" class="section-container section-background-secondary">
+    <div class="section-header">
+      ABOUT
+      <div class="section-header-underline"/>
+    </div>
   </div>
 </template>
 

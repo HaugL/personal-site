@@ -8,7 +8,7 @@ Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
 Vue.use(VueScrollTo, {
   container: 'body',
-  duration: 500,
+  duration: 1000,
   easing: 'ease',
   offset: 0,
   force: true,
