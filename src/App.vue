@@ -3,26 +3,17 @@
     <div id="nav">
       <Navbar />
     </div>
-    <div class='scrollable-page'>
-      <Home />
-    </div>
-    <div class='scrollable-page'>
-      <About />
-    </div>
+    <router-view/>
   </div>
 </template>
 
 
 <script>
 import Navbar from '@/components/Navbar.vue';
-import Home from '@/views/Home.vue';
-import About from '@/views/About.vue';
 
 export default {
   name: 'App',
   components: {
-    About,
-    Home,
     Navbar
   }
 }
@@ -35,9 +26,4 @@ export default {
 </style>
 
 <style lang="sass">
-  .scrollable-page
-    height: calc(100vh + 53px)
-    width: 100%
-  .page-divider
-    border-bottom: 5px solid red
 </style>
