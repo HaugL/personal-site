@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import particleConfig from '../utils/particlesjs-config.json';
+import particleConfig from '@/utils/particlesjs-config.json';
 
 require('particles.js');
 
