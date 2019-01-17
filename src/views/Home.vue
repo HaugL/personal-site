@@ -36,6 +36,7 @@ export default {
     text-align: center
     .section-header
       font-size: 40px
+      font-weight: $font-bold
       .section-header-underline
         width: 70px
         height: 2px
