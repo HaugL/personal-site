@@ -17,7 +17,7 @@
       </div>
       <div class="row skills-row">
         <div class="who-column col-md-5 col-sm-12">
-          <img class="headshot" src="../../assets/images/headshot.jpg" />
+          <img class="headshot" src="@/assets/images/headshot.jpg" />
           <div class="headshot-title">Who?</div>
           <div class="headshot-description">
             Description of Stuff
