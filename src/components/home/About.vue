@@ -29,7 +29,7 @@
               <div class="skill-bar-fill" v-bind:style="{ width: skill.percentage + '%' }">
                 <div class="skill-bar-name">{{ skill.name }}</div>
               </div>
-              <span>{{ skill.percentage }}%</span>
+              <span class='skill-percentage-title'>{{ skill.percentage }}%</span>
             </div>
           </div>
         </div>
@@ -117,7 +117,8 @@ export default {
         color: #666
         span
           margin-left: auto
-          margin-right: 15px
+          padding: 0px 10px 0px 10px
+          font-size: 12px
         .skill-bar-fill
           background: $bright-blue
         .skill-bar-name
