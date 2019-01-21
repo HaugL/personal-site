@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
+    "express": "^4.16.4",
     "particles.js": "^2.0.0",
     "vue": "^2.5.21",
     "vue-carousel": "^0.17.0",

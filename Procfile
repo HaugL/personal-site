@@ -1,0 +1,1 @@
+web: npm run builder && node server.js
