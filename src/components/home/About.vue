@@ -6,11 +6,13 @@
     </div>
     <div class="container about-grid-container">
       <div class="row highlights-row">
-        <div class="highlight col-md-3 col-sm-6"
+        <div class="highlight col-md-4 col-sm-12"
           v-for="highlight in highlights"
           v-bind:key="highlight.id"
         >
-          <div class="highlight-bubble" />
+          <div class="highlight-bubble">
+            <img v-bind:style="{ ...highlight.iconStyles }"class="highlight-bubble-icon" :src="highlight.icon">
+          </div>
           <div class="highlight-title">{{ highlight.title }}</div>
           <div class="highlight-description">{{ highlight.description }}</div>
         </div>
@@ -20,7 +22,9 @@
           <img class="headshot" src="@/assets/images/headshot.jpg" />
           <div class="headshot-title">Who?</div>
           <div class="headshot-description">
-            Description of Stuff
+            I am a Sr. Engineer for <a href="https://buildit.wiprodigital.com/">Buildit @ Wipro</a>, a two time CTO and a Techstars (Boulder '14') founder.
+            <br/>
+            <a href="#" v-scroll-to="'#contact'">Let's make something special.</a>
           </div>
         </div>
         <div class="skills col-md-7 col-sm-12">
@@ -40,6 +44,10 @@
 
 
 <script>
+import speedIcon from '@/assets/icons/icon-speed.svg';
+import successPackageIcon from '@/assets/icons/icon-package-success.svg';
+import routePackage from '@/assets/icons/icon-route.svg';
+
 export default {
   name: 'about',
   data() {
@@ -47,27 +55,34 @@ export default {
       highlights: [
         {
           id: 1,
-          title: 'A',
-          description: 'A\'s Description',
-          iconPath: '',
+          title: 'Fast',
+          description: 'I ship code quickly so you can deliver values to your users sooner.',
+          icon: speedIcon,
+          iconStyles: {
+            height: '75px',
+            'margin-top': '45px'
+          },
         },
         {
           id: 2,
-          title: 'B',
-          description: 'B\'s Description',
-          iconPath: '',
+          title: 'Business Oriented',
+          description: 'The goals of the business are first and front for all engineering decisions made.',
+          icon: successPackageIcon,
+          iconStyles: {
+            height: '100px',
+            'margin-top': '40px',
+            'margin-left': '10px'
+          },
         },
         {
           id: 3,
-          title: 'C',
-          description: 'C\'s Description',
-          iconPath: '',
-        },
-        {
-          id: 4,
-          title: 'D',
-          description: 'D\'s Description',
-          iconPath: '',
+          title: 'Scalable',
+          description: 'I implement the little things that will matter down the road, but won\'t hold us up today.',
+          icon: routePackage,
+          iconStyles: {
+            height: '100px',
+            'margin-top': '30px',
+          },
         },
       ],
       skills: [
