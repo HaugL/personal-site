@@ -18,7 +18,10 @@ export default {
 <style lang="sass">
   @import "@/assets/styles/base.sass"
   #introduction
-    height: calc(100vh)
+    @supports (-webkit-overflow-scrolling: touch)
+      height: 600px
+    @supports not (-webkit-overflow-scrolling: touch)
+      height: calc(100vh)
   .overlay
     margin-left: auto
     margin-right: auto

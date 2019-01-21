@@ -32,8 +32,11 @@ export default {
     position: fixed
     top: $navbar-height
     width: 100%
-    height: 100%
     background:#252934
     position: absolute
     z-index: 0
+    @supports (-webkit-overflow-scrolling: touch)
+      height: 600px
+    @supports not (-webkit-overflow-scrolling: touch)
+      height: 100%
 </style>
