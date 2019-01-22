@@ -105,13 +105,15 @@ export default {
   .about-grid-container
     max-width: 90%
     .highlights-row
-      margin-bottom: 100px
+      margin-bottom: 50px
+      .highlight
+        margin-bottom: 50px
       .highlight-bubble
         background: $bright-blue
         height: 150px
         width: 150px
         border-radius: 50%
-        margin: 0px auto 15px auto
+        margin: 0px auto 50px auto
     .headshot
       height: 300px
       border-radius: 50%
