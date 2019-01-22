@@ -33,7 +33,7 @@ export default {
     margin-top: 250px
     .title-text
       z-index: 1
-      font-size: 21px
+      font-size: 26px
       .name-highlight
         display: -webkit-inline-box
         color: $pink
