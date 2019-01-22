@@ -89,9 +89,9 @@ export default {
         { name: 'React', percentage: 90 },
         { name: 'Node.js', percentage: 70 },
         { name: 'Javascript', percentage: 90 },
-        { name: 'CSS/SASS', percentage: 50 },
+        { name: 'CSS/SASS', percentage: 60 },
         { name: 'Ruby/Rails', percentage: 70 },
-        { name: 'PostgreSQL', percentage: 40 },
+        { name: 'Postgres', percentage: 50 },
       ],
     };
   },
@@ -144,5 +144,9 @@ export default {
           color: white
           font-size: 14px
           height: 100%
+          @media (max-width: $screen-xs )
+            width: 85px
+            padding-left: 5px
+            text-align: left
 
 </style>
