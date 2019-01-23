@@ -11,7 +11,11 @@
           v-bind:key="highlight.id"
         >
           <div class="highlight-bubble">
-            <img v-bind:style="{ ...highlight.iconStyles }"class="highlight-bubble-icon" :src="highlight.icon">
+            <img
+              :style="{ ...highlight.iconStyles }"
+              class="highlight-bubble-icon"
+              :src="highlight.icon"
+            >
           </div>
           <div class="highlight-title">{{ highlight.title }}</div>
           <div class="highlight-description">{{ highlight.description }}</div>
@@ -60,7 +64,7 @@ export default {
           icon: speedIcon,
           iconStyles: {
             height: '75px',
-            'margin-top': '45px'
+            'margin-top': '45px',
           },
         },
         {
@@ -71,7 +75,7 @@ export default {
           iconStyles: {
             height: '100px',
             'margin-top': '40px',
-            'margin-left': '10px'
+            'margin-left': '10px',
           },
         },
         {
