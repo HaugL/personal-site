@@ -34,17 +34,17 @@ export default {
         {
           name: 'Plum Relish',
           image: plumRelishImage,
-          skills: ['React.js', 'Redux.js', 'Ruby/Rails', 'PostgreSQL'],
+          skills: ['React', 'Redux', 'Ruby/Rails', 'PostgreSQL'],
         },
         {
           name: 'Agile Central',
           image: agileCentralImage,
-          skills: ['React.js', 'Redux.js'],
+          skills: ['React', 'Redux'],
         },
         {
           name: 'Pana',
           image: panaImage,
-          skills: ['Node.js', 'Backbone.js', 'PostgreSQL'],
+          skills: ['Node.js', 'Backbone', 'PostgreSQL'],
         },
       ],
     };

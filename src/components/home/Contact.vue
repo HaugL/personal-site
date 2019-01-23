@@ -6,13 +6,13 @@
     </div>
     <div class='contact-form'>
       <p>Have a question or want to work together?</p>
-      <input class="contact-form-input" v-model="name" placeholder="Name" />
+      <input class="contact-form-input contact-name" v-model="name" placeholder="Name" />
       <textarea
-        class="contact-form-input contact-form-input-textarea"
+        class="contact-form-input contact-form-input-textarea contact-message"
         v-model="message"
         placeholder="Message"
       />
-      <input class="contact-form-input" v-model="email" placeholder="Email" />
+      <input class="contact-form-input contact-email" v-model="email" placeholder="Email" />
       <p class='contact-form-error' v-if="error">
         {{ error }}
       </p>
