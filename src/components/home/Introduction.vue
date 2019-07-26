@@ -4,7 +4,7 @@
       <div class='title-text'>
         Hello, I'm <div class='name-highlight'>Lianne Haug.</div>
       </div>
-      <div class='title-text'>I build web apps.</div>
+      <div class='title-text'>I'm a full-stack web developer</div>
     </div>
   </div>
 </template>
