@@ -6,7 +6,14 @@
     </div>
     <div class="resume-section">
       <b-row>
-        <b-col sm="12" md="6" lg="4" class="resume-item" v-for="item in resumeItems" v-bind:key="item.name">
+        <b-col
+          sm="12"
+          md="6"
+          lg="4"
+          class="resume-item"
+          v-for="item in resumeItems"
+          v-bind:key="item.name"
+        >
           <img :src="item.image"/>
           <div class='resume-item-company-name'>{{ item.companyName }}</div>
           <div class='resume-item-job-title'>{{ item.jobTitle }}</div>
