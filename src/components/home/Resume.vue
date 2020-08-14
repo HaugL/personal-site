@@ -60,7 +60,7 @@ export default {
           skills: ['React', 'Redux', 'Ruby/Rails', 'PostgreSQL'],
         },
         {
-          companyName: 'CA Technolgies',
+          companyName: 'CA Technologies',
           image: caLogo,
           jobTitle: 'Senior Software Engineer',
           skills: ['React', 'Redux'],
