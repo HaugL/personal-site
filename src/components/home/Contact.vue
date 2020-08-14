@@ -60,7 +60,7 @@ export default {
 <style lang="sass">
   @import "@/assets/styles/base.sass"
   #contact
-    height: 100%
+    height: 600px
     .contact-form
       width: 350px
       margin: 0px auto 100px auto

@@ -2,7 +2,7 @@
   <div id="introduction">
     <div class="overlay">
       <div class='title-text'>
-        Hello, I'm <div class='name-highlight'>Lianne Haug.</div>
+        Hello, I'm <div class='name-highlight'>Lianne Espeland.</div>
       </div>
       <div class='title-text'>I'm a full-stack web developer</div>
     </div>

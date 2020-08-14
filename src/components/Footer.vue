@@ -4,10 +4,10 @@
       <img src="@/assets/icons/icon-up-arrows.svg" />
     </a>
     <div class="social-icon-group">
-      <a href="https://www.linkedin.com/in/lianne-haug-19189956" target=”_blank”>
+      <a href="https://www.linkedin.com/in/lianne-espeland-19189956/" target=”_blank”>
         <img class="social-icon-item" src="@/assets/icons/icon-linkedin.svg" />
       </a>
-      <a href="mailto:me@lianne.co">
+      <a href="mailto:lianne.espeland@gmail.com">
         <img class="social-icon-item" src="@/assets/icons/icon-email.svg" />
       </a>
       <a href="https://github.com/HaugL" target=”_blank”>
@@ -26,7 +26,7 @@ export default {
 <style lang="sass">
   @import "@/assets/styles/base.sass"
   #footer
-    height: 200px
+    height: 350px
     background: $background
     text-align: center
     .scroll-top-button
@@ -41,6 +41,6 @@ export default {
     .social-icon-group
       margin-top: 30px
       .social-icon-item
-        margin: 0px 10px 0px 10px
-        width: 20px
+        margin: 10px 40px 0px 40px
+        width: 100px
 </style>

@@ -26,7 +26,7 @@
           <img class="headshot" src="@/assets/images/headshot.jpg" />
           <div class="headshot-title">Who?</div>
           <div class="headshot-description">
-            I am a Sr. Engineer for <a href="https://buildit.wiprodigital.com/">Buildit @ Wipro</a>, a two time CTO and a Techstars (Boulder '14') founder.
+            I am a Sr. Engineer for <a href="https://checkr.com/">Checkr</a>, a two time CTO and a Techstars (Boulder '14') founder.
             <br/>
             <a href="#" v-scroll-to="'#contact'">Let's make something special.</a>
           </div>
@@ -90,12 +90,12 @@ export default {
         },
       ],
       skills: [
+        { name: 'Ruby/Rails', percentage: 90 },
         { name: 'React', percentage: 90 },
-        { name: 'Node.js', percentage: 70 },
         { name: 'Javascript', percentage: 90 },
-        { name: 'CSS/SASS', percentage: 60 },
-        { name: 'Ruby/Rails', percentage: 70 },
         { name: 'Postgres', percentage: 50 },
+        { name: 'Node.js', percentage: 60 },
+        { name: 'Kafka', percentage: 50 },
       ],
     };
   },

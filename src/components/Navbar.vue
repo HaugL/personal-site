@@ -2,7 +2,7 @@
   <div class='nav'>
     <div class='nav-link-container'>
       <a href="#" v-scroll-to="'#about'">About</a>
-      <a href="#" v-scroll-to="'#portfolio'">Portfolio</a>
+      <a href="#" v-scroll-to="'#resume'">Resume</a>
       <a href="#" v-scroll-to="'#contact'">Contact</a>
     </div>
   </div>
