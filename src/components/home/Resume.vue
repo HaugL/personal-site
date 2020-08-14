@@ -51,7 +51,7 @@ export default {
           companyName: 'Buildit @ Wipro',
           image: wiproLogo,
           jobTitle: 'Senior Software Engineer',
-          skills: ['React.js', 'Vue.js'],
+          skills: ['React.js', 'Vue.js', 'PHP'],
         },
         {
           companyName: 'Plum Relish',
